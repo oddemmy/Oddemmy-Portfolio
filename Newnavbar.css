@@ -1,0 +1,60 @@
+/* Newnavbar.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;           
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem 2rem; */
+  background-color: white;
+  color: black;
+  margin: 0;     
+  padding: 2% 10%;  
+}
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.nav-button{
+  background-color: orange;
+  color: white;
+  margin-left: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo .name {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
